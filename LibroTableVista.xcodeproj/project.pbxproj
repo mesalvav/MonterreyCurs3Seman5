@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB759A231D25E4A100B833AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB759A221D25E4A100B833AD /* AppDelegate.swift */; };
+		AB759A281D25E4A100B833AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB759A261D25E4A100B833AD /* Main.storyboard */; };
+		AB759A2B1D25E4A100B833AD /* LibroTableVista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB759A291D25E4A100B833AD /* LibroTableVista.xcdatamodeld */; };
+		AB759A2D1D25E4A100B833AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB759A2C1D25E4A100B833AD /* Assets.xcassets */; };
+		AB759A301D25E4A100B833AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB759A2E1D25E4A100B833AD /* LaunchScreen.storyboard */; };
+		AB759A381D25E6AE00B833AD /* LibroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB759A371D25E6AE00B833AD /* LibroTableViewController.swift */; };
+		AB759A3C1D25EA6E00B833AD /* PedirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB759A3B1D25EA6E00B833AD /* PedirViewController.swift */; };
+		AB759A4A1D25FEA600B833AD /* UnLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB759A491D25FEA600B833AD /* UnLibro.swift */; };
+		ABE43B751D26319B002B0EA9 /* DetallesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE43B741D26319B002B0EA9 /* DetallesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB759A1F1D25E4A100B833AD /* LibroTableVista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibroTableVista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB759A221D25E4A100B833AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB759A271D25E4A100B833AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB759A2A1D25E4A100B833AD /* LibroTableVista.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LibroTableVista.xcdatamodel; sourceTree = "<group>"; };
+		AB759A2C1D25E4A100B833AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB759A2F1D25E4A100B833AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB759A311D25E4A100B833AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB759A371D25E6AE00B833AD /* LibroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibroTableViewController.swift; path = ../LibroTableViewController.swift; sourceTree = "<group>"; };
+		AB759A3B1D25EA6E00B833AD /* PedirViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedirViewController.swift; sourceTree = "<group>"; };
+		AB759A491D25FEA600B833AD /* UnLibro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLibro.swift; sourceTree = "<group>"; };
+		ABE43B741D26319B002B0EA9 /* DetallesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB759A1C1D25E4A100B833AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB759A161D25E4A100B833AD = {
+			isa = PBXGroup;
+			children = (
+				AB759A211D25E4A100B833AD /* LibroTableVista */,
+				AB759A201D25E4A100B833AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB759A201D25E4A100B833AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB759A1F1D25E4A100B833AD /* LibroTableVista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB759A211D25E4A100B833AD /* LibroTableVista */ = {
+			isa = PBXGroup;
+			children = (
+				AB759A221D25E4A100B833AD /* AppDelegate.swift */,
+				AB759A3B1D25EA6E00B833AD /* PedirViewController.swift */,
+				AB759A371D25E6AE00B833AD /* LibroTableViewController.swift */,
+				AB759A261D25E4A100B833AD /* Main.storyboard */,
+				AB759A2C1D25E4A100B833AD /* Assets.xcassets */,
+				AB759A2E1D25E4A100B833AD /* LaunchScreen.storyboard */,
+				AB759A311D25E4A100B833AD /* Info.plist */,
+				AB759A291D25E4A100B833AD /* LibroTableVista.xcdatamodeld */,
+				AB759A491D25FEA600B833AD /* UnLibro.swift */,
+				ABE43B741D26319B002B0EA9 /* DetallesViewController.swift */,
+			);
+			path = LibroTableVista;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB759A1E1D25E4A100B833AD /* LibroTableVista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB759A341D25E4A100B833AD /* Build configuration list for PBXNativeTarget "LibroTableVista" */;
+			buildPhases = (
+				AB759A1B1D25E4A100B833AD /* Sources */,
+				AB759A1C1D25E4A100B833AD /* Frameworks */,
+				AB759A1D1D25E4A100B833AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibroTableVista;
+			productName = LibroTableVista;
+			productReference = AB759A1F1D25E4A100B833AD /* LibroTableVista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB759A171D25E4A100B833AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dunas;
+				TargetAttributes = {
+					AB759A1E1D25E4A100B833AD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3X5FPFF437;
+					};
+				};
+			};
+			buildConfigurationList = AB759A1A1D25E4A100B833AD /* Build configuration list for PBXProject "LibroTableVista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB759A161D25E4A100B833AD;
+			productRefGroup = AB759A201D25E4A100B833AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB759A1E1D25E4A100B833AD /* LibroTableVista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB759A1D1D25E4A100B833AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB759A301D25E4A100B833AD /* LaunchScreen.storyboard in Resources */,
+				AB759A2D1D25E4A100B833AD /* Assets.xcassets in Resources */,
+				AB759A281D25E4A100B833AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB759A1B1D25E4A100B833AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB759A381D25E6AE00B833AD /* LibroTableViewController.swift in Sources */,
+				AB759A2B1D25E4A100B833AD /* LibroTableVista.xcdatamodeld in Sources */,
+				ABE43B751D26319B002B0EA9 /* DetallesViewController.swift in Sources */,
+				AB759A4A1D25FEA600B833AD /* UnLibro.swift in Sources */,
+				AB759A3C1D25EA6E00B833AD /* PedirViewController.swift in Sources */,
+				AB759A231D25E4A100B833AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB759A261D25E4A100B833AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB759A271D25E4A100B833AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB759A2E1D25E4A100B833AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB759A2F1D25E4A100B833AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB759A321D25E4A100B833AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB759A331D25E4A100B833AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB759A351D25E4A100B833AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibroTableVista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dunas.LibroTableVista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB759A361D25E4A100B833AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibroTableVista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dunas.LibroTableVista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB759A1A1D25E4A100B833AD /* Build configuration list for PBXProject "LibroTableVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB759A321D25E4A100B833AD /* Debug */,
+				AB759A331D25E4A100B833AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB759A341D25E4A100B833AD /* Build configuration list for PBXNativeTarget "LibroTableVista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB759A351D25E4A100B833AD /* Debug */,
+				AB759A361D25E4A100B833AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB759A291D25E4A100B833AD /* LibroTableVista.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB759A2A1D25E4A100B833AD /* LibroTableVista.xcdatamodel */,
+			);
+			currentVersion = AB759A2A1D25E4A100B833AD /* LibroTableVista.xcdatamodel */;
+			path = LibroTableVista.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB759A171D25E4A100B833AD /* Project object */;
+}

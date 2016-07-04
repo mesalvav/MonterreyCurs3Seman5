@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Autores" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="escribio" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UnLibro" inverseName="tiene" inverseEntity="UnLibro" syncable="YES"/>
+    </entity>
+    <entity name="UnLibro" syncable="YES">
+        <attribute name="isbn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="portada" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tiene" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Autores" inverseName="escribio" inverseEntity="Autores" syncable="YES"/>
+    </entity>
+    <fetchRequest name="contarLibros" entity="UnLibro"/>
+    <fetchRequest name="petAutores" entity="Autores"/>
+    <fetchRequest name="petLibros" entity="UnLibro"/>
+    <elements>
+        <element name="UnLibro" positionX="-380" positionY="-117" width="128" height="103"/>
+        <element name="Autores" positionX="-126" positionY="-288" width="128" height="73"/>
+    </elements>
+</model>
